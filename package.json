@@ -2,7 +2,7 @@
   "scripts": {
     "build": "npm-run-all clean transpile typecheck",
     "clean": "rm -r lib",
-    "transpile": "babel src --extensions '.ts' --out-dir lib",
+    "transpile": "babel src --extensions \".ts\" --out-dir lib",
     "watch-transpile": "babel src --out-dir lib --watch",
     "typecheck": "tsc"
   },
